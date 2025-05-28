@@ -1,0 +1,91 @@
+@font-face {
+      font-family: 'Cocogoose';
+      src: url('fonts/Cocogoose.ttf') format('truetype');}
+
+@font-face {
+      font-family: 'tommys';
+      src: url('fonts/tommys.ttf') format('truetype');}
+
+header {
+  display: flex;
+  font-family: 'tommys', "Comic Sans", cursive;
+  font-size: 30px;
+  background-color: white;
+  color: rgb(14, 14, 134);
+  padding: 15px 20px;
+  text-align: center;
+  align-items: center;}
+
+.top_image {
+  height: 100px;
+  width: auto;
+  margin-right: 15px;}
+
+.blog_image {
+  height: 250px;
+  width: auto;
+  margin-right: 15px;}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #000;
+  padding: 15px;
+  text-align: justify;}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr 300px;
+  gap: 20px;
+  padding: 15px;}
+
+.sidebar-left{
+  background-color: white;
+  padding: 0px 20px;
+  color: white;} 
+
+.main-content {
+  background-color: white;
+  padding: 0px 20px;
+  color: black;
+  border: 2px solid rgb(164, 16, 16);}
+h3 {font-family: "Cocogoose", "Comic Sans", cursive, bold;
+    color: rgb(14, 14, 134);
+    font-size: 25px;}
+
+h5 {font-family: Arial, "Comic Sans", cursive, bold;
+    color: rgb(164, 16, 16);
+    font-size: 15px;}
+
+h2 {font-family: "Cocogoose", "Comic Sans", cursive, bold;
+    color: rgb(164, 16, 16);
+    font-size: 15px;}
+
+.sidebar-right {
+  background-color: white;
+  padding: 0px 20px;
+  color: black;
+  border: 2px solid rgb(14, 14, 134);}
+h4 {font-family: "Cocogoose", "Comic Sans", cursive, bold;
+    color: rgb(164, 16, 16);
+    font-size: 30px;}
+
+ul li::marker {
+  color: rgb(164, 16, 16);}
+
+button {
+  font-family: "tommys", "Comic Sans", cursive;
+  font-size: 30px;
+  background-color: white;
+  color: rgb(164, 16, 16);
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(14, 14, 134);;
+  text-align: center;}
+button:hover {
+  background-color: rgb(164, 16, 16);
+  color: white;
+  transform: translateY(-2px);
+  cursor: pointer;}
+button:active {
+  transform: translateY(1px)}
