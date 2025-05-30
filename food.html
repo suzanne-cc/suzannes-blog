@@ -9,32 +9,64 @@
 </head>
 
 <header>
+  <div style="text-align: center">
     <img src="images/frontpage/cph.png" class="top_image">
     <img src="images/frontpage/in_italy.png" class="top_image">
     <img src="images/frontpage/crossed_arms.png" class="top_image">
     <img src="images/frontpage/beach.png" class="top_image">
+    <img src="images/frontpage/wine.png" class="top_image">
     <img src="images/frontpage/sleigh.png" class="top_image">
-    <h1><b>suzanne's cookbook</b></h1>
+    <h1 style="display: inline; font-size: 50px"> <b>suzanne's cookbook</b> </h1>
     <img src="images/frontpage/angel.png" class="top_image">
     <img src="images/frontpage/radis.png" class="top_image">
     <img src="images/frontpage/eiffle.png" class="top_image">
     <img src="images/frontpage/cowgirl.png" class="top_image">
     <img src="images/frontpage/pink.png" class="top_image">
-    <img src="images/frontpage/wine.png" class="top_image">
+  </div>
 </header>
 
 <body>
-      <div class="container">
+  <div class="container">
+
     <!-- Left Sidebar -->
-    <aside class="sidebar-left">
-      <a href="index.html"> <button>back</button> <br> <br> </a> 
-    </aside>
+    <div style="text-align: right;">
+      <aside class="sidebar-left">
+        <a href="index.html"> <button>back</button> <br> <br> </a> 
+      </aside>
+    </div>
 
     <!-- Main Content -->
     <main class="main-content">
+      <!-- BMO -->  
+      <h3>Bolle med Ost</h3>
+      <h2 style="display: inline;">Rating:</h2> <p style="display: inline;">10/10</p>
+      <br>
+      <div style="text-align: center;">
+        <img style="height: 320px; display: inline-block; margin-right: 30px;" src="images/food/bmo/bmo_beach.png">
+        <img style="height: 290px; transform: rotate(90deg); display: inline-block; margin-left: 30px;" src="images/food/bmo/bmo(2).png">
+      </div>
+      <p>Everything a bmo should be - the bread is crunchy on the outside, soft inside but chewy enough that you have to work for it. A great sourdough bun !
+        Generous with the butter adding softness to the bread and providing adhesion for the cheese which is in my opinion the perfect balance of aromas, not too tangy yet still flavorful.
+        The bakery itslef being on the way to the beach means that it can be enjoyed in the salty sea air adding valuable sents enhacing flavor. 
+        Overall, a fantastic experience, will return !
+      </p>
+      <br>
+      <div style="text-align: center">
+        <button2 onclick="openVideo()"> Click to Relive the Experience !</button2>
+      </div>
+
+      <div id="videoModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeVideo()">&times;</span>
+          <iframe id="videoFrame" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <script src="video-popup.js"></script>
+
     <!-- Banana Bread -->  
       <h3>Marika's Gluten Free Banana Bread</h3>
-      <h2 style="display: inline;">Rating:</h2> <p style="display: inline;">13/10 (according to Marika)</p>
+      <h2 style="display: inline;">Rating:</h2> <p style="display: inline;">20/10 (according to Marika)</p>
       <br> <br>
       <h2 style="display: inline;">Actual Rating:</h2> <p style="display: inline;">9/10</p>
       <img style="display: block; margin: 10px auto;" src="images/food/banana_bread/banana_bread.png" class="blog_image">
@@ -57,13 +89,15 @@
         <li>1/2 tsp salt</li> 
         <li>wallnuts and chocolate</li> </ul>
 
-        <img src="images/food/banana_bread/banana.png" class="top_image">
-        <img src="images/food/banana_bread/egg.png" class="top_image">
-        <img src="images/food/banana_bread/melted_butter.png" class="top_image">
-        <img src="images/food/banana_bread/liquid_batter.png" class="top_image">
-        <img src="images/food/banana_bread/flour.png" class="top_image">
-        <img src="images/food/banana_bread/add_flour.png" class="top_image">
-        <img src="images/food/banana_bread/toppings.png" class="top_image">
+        <div style="text-align: center">
+          <img src="images/food/banana_bread/banana.png" class="top_image">
+          <img src="images/food/banana_bread/egg.png" class="top_image">
+          <img src="images/food/banana_bread/melted_butter.png" class="top_image">
+          <img src="images/food/banana_bread/liquid_batter.png" class="top_image">
+          <img src="images/food/banana_bread/flour.png" class="top_image">
+          <img src="images/food/banana_bread/add_flour.png" class="top_image">
+          <img src="images/food/banana_bread/toppings.png" class="top_image">
+        </div>
 
       <p> Mash the bananas, and add all the wet ingredients and sugar to the same bowl. 
         In a seperate bowl, mix the dry ingredients before incorporating them to the wet ingredients. 
