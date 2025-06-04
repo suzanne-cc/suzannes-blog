@@ -20,7 +20,8 @@ header {
   height: 95px;
   width: auto;
   margin-right: 5px;
-  display: inline-block;}
+  display: inline-block;
+  vertical-align: middle;}
 
 .blog_image {
   height: 250px;
@@ -49,10 +50,18 @@ body {
   gap: 20px;
   padding: 15px;}
 
-.sidebar-left{
+.sidebar-left {
   background-color: white;
-  padding: 0px 20px;
-  color: white;} 
+  padding: 0 5px;}
+
+.sidebar-left a {
+  display: block;
+  text-decoration: none;}
+
+.sidebar-left button {
+  display: block;
+  margin-left: auto;
+  margin-bottom: 7px;}
 
 .main-content {
   background-color: white;
