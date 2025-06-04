@@ -34,9 +34,18 @@ body {
   padding: 15px;
   text-align: justify;}
 
+.container_index {
+  display: grid;
+  grid-template-columns: 10% 65% 25%;
+  margin-right: 20px;
+  gap: 20px;
+  padding: 15px;}
+
 .container {
   display: grid;
-  grid-template-columns: 150px 1fr 300px;
+  grid-template-columns: 10% 80% 10%;
+  margin-right: 20px;
+  margin-left: 20px;
   gap: 20px;
   padding: 15px;}
 
@@ -47,9 +56,10 @@ body {
 
 .main-content {
   background-color: white;
-  padding: 0px 20px;
+  padding: 20px;
   color: black;
   border: 2px solid rgb(164, 16, 16);}
+
 h3 {font-family: "Cocogoose", "Comic Sans", cursive, bold;
     color: rgb(14, 14, 134);
     font-size: 25px;}
@@ -69,10 +79,35 @@ h2 {font-family: "Cocogoose", "Comic Sans", cursive, bold;
   border: 2px solid rgb(14, 14, 134);}
 h4 {font-family: "Cocogoose", "Comic Sans", cursive, bold;
     color: rgb(164, 16, 16);
-    font-size: 30px;}
+    font-size: 20px;}
 
 ul li::marker {
   color: rgb(164, 16, 16);}
+
+.containermusic {
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  gap: 20px;
+  padding: 15px;
+  width: 95%;
+  margin: 0 auto;}
+
+.square {
+  background-color: white;
+  aspect-ratio: 1 / 1;
+  padding: 0px 20px;
+  color: black;
+  border: 2px solid rgb(164, 16, 16);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;}
+
+.player-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;}
 
 button {
   font-family: "tommys", "Comic Sans", cursive;
@@ -90,6 +125,22 @@ button:hover {
   cursor: pointer;}
 button:active {
   transform: translateY(1px)}
+
+h7 {
+    font-family: "tommys", "Comic Sans", cursive;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(164, 16, 16);
+    margin: 0;
+    display: block;}
+
+h8 {
+    font-family: "Cocogoose", "Comic Sans", cursive;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(14, 14, 134);
+    margin: 0;
+    display: block;}
 
 button2 {
   font-family: "Arial", "Comic Sans", cursive;
@@ -145,3 +196,28 @@ button2:active {
     width: 100%;
     height: 400px;
   }
+
+/* for music player */
+#playButton {
+  font-size: 20px;
+  background-color: white;
+  color: rgb(14, 14, 134);
+  border: none;
+  margin-right: 5px;}
+
+#progressBar {
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+  background: #ddd;
+  appearance: none;
+  margin-right: 20px;}
+
+#progressBar::-webkit-slider-thumb {
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: rgb(14, 14, 134);
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 20px;}
