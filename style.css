@@ -159,7 +159,6 @@ button2:hover {
 button2:active {
   transform: translateY(1px)}
 
-
 /* for pop-up video */
   .modal {
     display: none; 
