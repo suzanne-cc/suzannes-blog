@@ -6,7 +6,8 @@ $(document).ready(function () {
     display: 'double',   // ← Important!
     pageSpacing: 0,
     gradients: false,
-    acceleration: false
+    acceleration: false,
+    duration: 400
   });
 
   $('#flipbook').click(function (e) {
@@ -22,4 +23,3 @@ $(document).ready(function () {
     }
   });
 });
-
