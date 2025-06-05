@@ -229,3 +229,44 @@ button2:active {
   border-radius: 50%;
   cursor: pointer;
   margin-right: 20px;}
+
+#flipbook {
+  width: 800px;           /* 2 pages side by side */
+  height: 600px;
+  overflow: visible;
+  margin: 0 auto;
+  padding: 0;
+  background: white;
+  border: none;
+}
+
+#flipbook .page {
+  width: 400px;
+  height: 600px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+#flipbook .page img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  background: white;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.turn-page {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+}
+
+.shadow {
+  display: none !important;
+}
+
