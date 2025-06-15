@@ -5,6 +5,9 @@
 <head>
     <title>hi</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="turn.min.js"></script>
+    <script src="page_turner.js"></script>
 </head>
 
 <body>
@@ -30,17 +33,17 @@
     <!-- Left Sidebar -->
     <aside class="sidebar-left">
       <a href="food.html"> <button> <b>Food</b> </button> </a>
-      <a href="music.html"> <button> <b>Music</b> </button> </a>
-      <a href="sticker_book.html"> <button> <b>Stickers</b> </button> </a>  
+      <a href="music.html"> <button> <b>Music</b> </button> </a> 
     </aside>
 
 
     <!-- Main Content -->
     <main class="main-content">
     
+      <!-- Copenhagen List -->
       <br>
       <div style="display: flex; justify-content: space-between; align-items: center;">
-        <h3 style="margin: 0;">my favorite Copenhagen spots</h3>
+        <h3 style="margin: 0;">My Favorite Copenhagen Spots</h3>
         <h5 style="margin: 0; color: rgb(14, 14, 134);">28.05.2025</h5>
       </div>
 
@@ -52,11 +55,68 @@
         width="640" 
         height="600"
         style="border:0;">
-      
       </iframe>
       </div>
+      <br>
 
-      <br><br> <br><br> <br><br> <br><br> <br>
+      <!-- Sticker Collection -->
+      <br>
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h3 style="margin: 0;">My Fruit Sticker Collection</h3>
+        <h5 style="margin: 0; color: rgb(14, 14, 134);">26.05.2025</h5>
+      </div>
+
+      <p>These are souvenirs from my travels and tokens of affection from friends and family who peel the stickers off their fruits and send them to me by post.
+        Whenever I find a new one, it rarely goes straight into my yellow book. 
+        First, it might land on my forearm as I walk home from the store, as a decoration on my phone case, on the bookmark of my current book, 
+        or stuck to an ID or credit card tucked inside my wallet.</p> 
+      <p>There's the sticker from the first mango I shared with friends and later grewn into a small mango tree. 
+        There are stickers from trips to Latvia, Italy, and Germany. 
+        Some were brought back by my sister from Slovakia or the Netherlands, while others came in envelopes from my grandmother in France.</p>
+
+      <div id="flipbook">
+        <div class="page"><img src="images/sticker_book/cover.png"></div>
+        <div class="page"><img src="images/sticker_book/page1.png"></div>
+        <div class="page"><img src="images/sticker_book/page2.png"></div>
+        <div class="page"><img src="images/sticker_book/page3.png"></div>
+        <div class="page"><img src="images/sticker_book/page4.png"></div>
+        <div class="page"><img src="images/sticker_book/page5.png"></div>
+        <div class="page"><img src="images/sticker_book/page6.png"></div>
+        <div class="page"><img src="images/sticker_book/page7.png"></div>
+        <div class="page"><img src="images/sticker_book/page8.png"></div>
+        <div class="page"><img src="images/sticker_book/page9.png"></div>
+        <div class="page"><img src="images/sticker_book/page10.png"></div>
+        <div class="page"><img src="images/sticker_book/page11.png"></div>
+        <div class="page"><img src="images/sticker_book/page12.png"></div>
+        <div class="page"><img src="images/sticker_book/page13.png"></div>
+        <div class="page"><img src="images/sticker_book/page14.png"></div>
+        <div class="page"><img src="images/sticker_book/page15.png"></div>
+        <div class="page"><img src="images/sticker_book/page16.png"></div>
+        <div class="page"><img src="images/sticker_book/page17.png"></div>
+        <div class="page"><img src="images/sticker_book/page18.png"></div>
+        <div class="page"><img src="images/sticker_book/page19.png"></div>
+        <div class="page"><img src="images/sticker_book/page20.png"></div>
+        <div class="page"><img src="images/sticker_book/page21.png"></div>
+        <div class="page"><img src="images/sticker_book/page22.png"></div>
+        <div class="page"><img src="images/sticker_book/page23.png"></div>
+        <div class="page"><img src="images/sticker_book/page24.png"></div>
+        <div class="page"><img src="images/sticker_book/page25.png"></div>
+        <div class="page"><img src="images/sticker_book/page26.png"></div>
+        <div class="page"><img src="images/sticker_book/page27.png"></div>
+        <div class="page"><img src="images/sticker_book/page28.png"></div>
+        <div class="page"><img src="images/sticker_book/page29.png"></div>
+        <div class="page"><img src="images/sticker_book/page30.png"></div>
+        <div class="page"><img src="images/sticker_book/page31.png"></div>
+        <div class="page"><img src="images/sticker_book/page32.png"></div>
+        <div class="page"><img src="images/sticker_book/page33.png"></div>
+        <div class="page"><img src="images/sticker_book/page34.png"></div>
+        <div class="page"><img src="images/sticker_book/page35.png"></div>
+        <div class="page"><img src="images/sticker_book/page36.png"></div>
+
+        <div class="page"><img src="images/sticker_book/back.png"></div>
+      </div>
+ 
+      <br>
     </main>
 
     <!-- Right Sidebar -->
