@@ -205,7 +205,7 @@ button2:active {
     height: 400px;
   }
 
-/* for music player */
+/* for music player*/
 #playButton {
   font-size: 20px;
   background-color: white;
@@ -229,6 +229,15 @@ button2:active {
   border-radius: 50%;
   cursor: pointer;
   margin-right: 20px;}
+
+.small-music-player {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 #flipbook {
   width: 800px;           /* 2 pages side by side */

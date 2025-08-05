@@ -16,7 +16,7 @@
     <img src="images/frontpage/beach.png" class="top_image">
     <img src="images/frontpage/wine.png" class="top_image">
     <img src="images/frontpage/sleigh.png" class="top_image">
-    <h1 style="display: inline; font-size: 57px"> <b> radio suzanne</b> </h1>
+    <h1 style="display: inline; font-size: 54px"> <b>Suzanne's backpack</b> </h1>
     <img src="images/frontpage/angel.png" class="top_image">
     <img src="images/frontpage/radis.png" class="top_image">
     <img src="images/frontpage/eiffle.png" class="top_image">
@@ -25,42 +25,39 @@
   </div>
   </header>
 
-  <div class="container">
+<div class="container">
 
     <!-- Left Sidebar -->
     <div style="text-align: right;">
       <aside class="sidebar-left">
         <a href="index.html"> <button> <b>Home</b> </button> </a>
+        <a href="music.html"> <button> <b>Music</b> </button> </a>
         <a href="food.html"> <button> <b>Food</b> </button> </a>
-        <a href="quests.html"> <button><b>Quests</b> </button> </a>
       </aside>
     </div>
 
-<!-- Main Content -->
+    <!-- Main Content -->
     <main class="main-content">
-      <h3>work in progress...</h3>
-      <p>come back later for something better than bubble noises</p>
-      <div class="containermusic">
-        <div class="square">6</div>
-        <div class="square">5</div>
-        <div class="square">4</div>
-        <div class="square">3</div>
-        <div class="square">2</div>
-        <div class="square">
-            <!-- Info -->
-            <h7> <b>Bubbles</b> </h7>
-            <h8>by bubble maker</h8>
-            <br> <br>
-            <p>insert photo here</p>
-            <br> <br> <br>
-            <!-- Music Player -->
-            <div class="player-row">
-              <button id="playButton">▶</button>
-              <input type="range" id="progressBar" value="0" max="100"></div>
-            <audio id="audioPlayer" src="music/bubbles.mp3"></audio>
-            </div>
+
+    <!-- Chamechaude -->
+      <br>
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h3 style="margin: 0;">Chamechaude</h3>
+        <h5 style="margin: 0; color: rgb(14, 14, 134);">02.07.2025</h5>
       </div>
-    </main>
+
+      <div style="display: flex; align-items: center; justify-content: center; text-align: center;">
+        <h5 style="display: inline">play as</h5>
+        <img src="images/quests/chamechaude/sheep.gif" alt="Cool Animation" width="150" style="padding: 0">
+        <h5 style="display: inline">you read</h5>
+      </div>
+      <div class="small-music-player">
+        <div class="player-row">
+          <button id="playButton">▶</button>
+          <input type="range" id="progressBar" value="0" max="100"></div>
+          <audio id="audioPlayer" src="music/sheep.mp3"></audio>
+        </div>
+      </div>
   <script src="audio-player.js"></script>
 </body>
 
