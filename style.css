@@ -9,7 +9,7 @@
 header {
   display: flex;
   font-family: 'tommys', "Comic Sans", cursive;
-  font-size: 30px;
+  font-size: 190%;
   background-color: white;
   color: rgb(14, 14, 134);
   padding: 15px 20px;
@@ -19,7 +19,7 @@ header {
 .top_image {
   height: 95px;
   width: auto;
-  margin-right: 5px;
+  margin-right: 0%;
   display: inline-block;
   vertical-align: middle;}
 
