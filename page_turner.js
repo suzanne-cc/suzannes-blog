@@ -1,9 +1,9 @@
 $(document).ready(function () {
   $('#flipbook').turn({
-    width: 800,          // Each spread = 2 x 400px pages
-    height: 600,
+    width: "45vw",
+    height: "90vw",
     autoCenter: true,
-    display: 'double',   // ← Important!
+    display: 'double',
     pageSpacing: 0,
     gradients: false,
     acceleration: false,

@@ -9,50 +9,51 @@
 header {
   display: flex;
   font-family: 'tommys', "Comic Sans", cursive;
-  font-size: 190%;
+  font-size: 2vw;
   background-color: white;
   color: rgb(14, 14, 134);
-  padding: 15px 20px;
+  padding: 1vw 3vw;
   text-align: center;
   align-items: center;}
 
 .top_image {
-  height: 95px;
+  height: 5.3vw;
   width: auto;
   margin-right: 0%;
   display: inline-block;
   vertical-align: middle;}
 
 .blog_image {
-  height: 250px;
+  height: 20vw;
   width: auto;
-  margin-right: 15px;}
+  margin-right: 15vw;}
 
 body {
   font-family: Arial, sans-serif;
+  font-size: 1vw;
   background-color: white;
   color: #000;
-  padding: 15px;
+  padding: 2vw;
   text-align: justify;}
 
 .container_index {
   display: grid;
-  grid-template-columns: 10% 63% 25%;
+  grid-template-columns: 10% 60% 25%;
   margin: 1%;
-  gap: 20px;
-  padding: 15px;}
+  gap: 2vw;
+  padding: 2vw;}
 
 .container {
   display: grid;
   grid-template-columns: 10% 80% 10%;
-  margin-right: 20px;
-  margin-left: 20px;
-  gap: 20px;
-  padding: 15px;}
+  margin-right: 1vw;
+  margin-left: 1vw;
+  gap: 1vw;
+  padding: 1vw;}
 
 .sidebar-left {
   background-color: white;
-  padding: 0 5px;}
+  padding: 0 0vw;}
 
 .sidebar-left a {
   display: block;
@@ -61,34 +62,34 @@ body {
 .sidebar-left button {
   display: block;
   margin-left: auto;
-  margin-bottom: 7px;}
+  margin-bottom: 1vw;}
 
 .main-content {
   background-color: white;
-  padding: 20px;
+  padding: 2vw;
   color: black;
-  border: 2px solid rgb(164, 16, 16);}
+  border: 0.15vw solid rgb(164, 16, 16);}
 
 h3 {font-family: "Cocogoose", "Comic Sans", cursive, bold;
     color: rgb(14, 14, 134);
-    font-size: 25px;}
+    font-size: 2vw;}
 
 h5 {font-family: Arial, "Comic Sans", cursive, bold;
     color: rgb(164, 16, 16);
-    font-size: 15px;}
+    font-size: 1.2vw;}
 
 h2 {font-family: "Cocogoose", "Comic Sans", cursive, bold;
     color: rgb(164, 16, 16);
-    font-size: 15px;}
+    font-size: 1.2vw;}
 
 .sidebar-right {
   background-color: white;
-  padding: 0px 20px;
+  padding: 0vw 2vw;
   color: black;
-  border: 2px solid rgb(14, 14, 134);}
+  border: 0.15vw solid rgb(14, 14, 134);}
 h4 {font-family: "Cocogoose", "Comic Sans", cursive, bold;
     color: rgb(164, 16, 16);
-    font-size: 20px;}
+    font-size: 2vw;}
 
 ul li::marker {
   color: rgb(164, 16, 16);}
@@ -96,17 +97,17 @@ ul li::marker {
 .containermusic {
   display: grid;
   grid-template-columns: repeat(3, 32%);
-  gap: 20px;
-  padding: 15px;
+  gap: 2vw;
+  padding: 1.2vw;
   width: 95%;
   margin: 0 auto;}
 
 .square {
   background-color: white;
   aspect-ratio: 1 / 1;
-  padding: 0px 20px;
+  padding: 0vw 1vw;
   color: black;
-  border: 2px solid rgb(164, 16, 16);
+  border: 0.15vw solid rgb(164, 16, 16);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,28 +117,25 @@ ul li::marker {
   display: flex;
   align-items: center;
   width: 100%;
-  gap: 10px;}
+  gap: 1vw;}
 
 button {
   font-family: "tommys", "Comic Sans", cursive;
-  font-size: 30px;
+  font-size: 2vw;
   background-color: white;
   color: rgb(164, 16, 16);
-  padding: 10px;
-  border-radius: 5px;
-  border: 2px solid rgb(14, 14, 134);;
+  padding: 0.5vw;
+  border-radius: 0.5vw;
+  border: 0.15vw solid rgb(14, 14, 134);;
   text-align: center;}
 button:hover {
   background-color: rgb(164, 16, 16);
   color: white;
-  transform: translateY(-2px);
   cursor: pointer;}
-button:active {
-  transform: translateY(1px)}
 
 h7 {
     font-family: "tommys", "Comic Sans", cursive;
-    font-size: 40px;
+    font-size: 4vw;
     text-align: center;
     color: rgb(164, 16, 16);
     margin: 0;
@@ -145,7 +143,7 @@ h7 {
 
 h8 {
     font-family: "Cocogoose", "Comic Sans", cursive;
-    font-size: 10px;
+    font-size: 1vw;
     text-align: center;
     color: rgb(14, 14, 134);
     margin: 0;
@@ -153,20 +151,17 @@ h8 {
 
 button2 {
   font-family: "Arial", "Comic Sans", cursive;
-  font-size: 15px;
+  font-size: 1vw;
   background-color: white;
   color: rgb(164, 16, 16);
-  padding: 10px;
-  border-radius: 5px;
-  border: 2px solid rgb(14, 14, 134);;
+  padding: 0.5vw;
+  border-radius: 0.5vw;
+  border: 0.15vw solid rgb(14, 14, 134);;
   text-align: center;}
 button2:hover {
   background-color: rgb(164, 16, 16);
   color: white;
-  transform: translateY(-2px);
   cursor: pointer;}
-button2:active {
-  transform: translateY(1px)}
 
 /* for pop-up video */
   .modal {
@@ -186,52 +181,52 @@ button2:active {
     margin: 10% auto;
     padding: 0;
     width: 80%;
-    max-width: 700px;
+    max-width: 50vw;
     background: #000;
   }
 
   .close {
     position: absolute;
-    top: 10px;
-    right: 16px;
+    top: 1vw;
+    right: 1vw;
     color: white;
-    font-size: 30px;
+    font-size: 2vw;
     cursor: pointer;
   }
   
   iframe {
     display: block;
     width: 100%;
-    height: 400px;
+    height: 25vw;
   }
 
 /* for music player*/
 #playButton {
-  font-size: 20px;
+  font-size: 1.5vw;
   background-color: white;
   color: rgb(14, 14, 134);
   border: none;
-  margin-right: 5px;}
+  margin-right: 0.5vw;}
 
 #progressBar {
   width: 100%;
-  height: 8px;
-  border-radius: 4px;
+  height: 0.5vw;
+  border-radius: 1vw;
   background: #ddd;
   appearance: none;
-  margin-right: 20px;}
+  margin-right: 1.5vw;}
 
 #progressBar::-webkit-slider-thumb {
   appearance: none;
-  width: 12px;
-  height: 12px;
+  width: 0.8vw;
+  height: 0.8vw;
   background: rgb(14, 14, 134);
   border-radius: 50%;
   cursor: pointer;
-  margin-right: 20px;}
+  margin-right: 1vw;}
 
 .small-music-player {
-  width: 300px;
+  width: 20vw;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -240,8 +235,8 @@ button2:active {
 }
 
 #flipbook {
-  width: 800px;           /* 2 pages side by side */
-  height: 600px;
+  width: 45vw;           /* 2 pages side by side */
+  height: 90vw;
   overflow: visible;
   margin: 0 auto;
   padding: 0;
@@ -250,8 +245,8 @@ button2:active {
 }
 
 #flipbook .page {
-  width: 400px;
-  height: 600px;
+  width: 45vw;
+  height: 90vw;
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -259,8 +254,8 @@ button2:active {
 }
 
 #flipbook .page img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
   object-fit: contain;
   display: block;
   background: white;
